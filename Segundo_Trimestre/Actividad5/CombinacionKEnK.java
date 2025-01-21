@@ -45,3 +45,12 @@ public class CombinacionKEnK {
             return (combinaciones(n-1, k-1) + combinaciones(n-1,k));
         }
 }
+
+/*
+ * ACTIVIDAD 4 ED
+ * Diferencias entre commit, push y pull:
+ *
+ *- commit: Guarda tus cambios en el repositorio local.
+ *- push: Envía los commits del repositorio local al repositorio remoto.
+ *- pull: Fusiona los cambios del repositorio remoto con el repositorio local.
+ */

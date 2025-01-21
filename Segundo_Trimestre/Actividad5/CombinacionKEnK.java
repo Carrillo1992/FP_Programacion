@@ -20,7 +20,7 @@ public class CombinacionKEnK {
         }
         // Solicitamos al usuario el valor de K
         while (true) {
-            System.out.println("Ingrese el tamaño de los subgrupos (K):");
+            System.out.println("Ingrese el tamaño de los subconjuntos (K):");
             if (escaner.hasNextInt()) {
                 k = escaner.nextInt();
                 if(k < n){

@@ -8,10 +8,11 @@ public class Estadistica {
         System.out.println("La moda de {1.5 , 2.8 , 1.5 , 2.8 , 3.5} = "+ Arrays.toString(calcular(new double[]{1.5,2.8,1.5,2.8,3.5})));
         System.out.println("La mediana de {'Python' , 'C' , 'Java' , 'C++' , 'R' , 'JavaScript'} = "+ calcular(new String[]{"Python" , "C","Java" , "C++" , "R","Javascript"}));
     }
+    
     // Calculo de la media
     public static int calcular(int[] media){
         int resultado = 0;
-        // Sumamos todos los numeors de la lista 
+        // Sumamos todos los numeros de la lista 
         for (int numero:media){
             resultado+=numero;
         }
@@ -38,7 +39,7 @@ public class Estadistica {
                 resultado = new double[1];
                 resultado[0] = moda[i];
                 cantidadModas = 1;
-            } else if (frecuencia == maxFrecuencia) { // si las frecuencias son iguales verificamos que no esta repetida
+            } else if (frecuencia == maxFrecuencia) { // Si las frecuencias son iguales verificamos que no esta repetida en resultado
                 boolean existe = false;
                 for (int k = 0; k < cantidadModas; k++) {
                     if (resultado[k] == moda[i]) {

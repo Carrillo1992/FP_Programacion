@@ -15,7 +15,7 @@ public class CombinacionKEnK {
                 break;
             } else {
                 System.out.println("Ingresa un valor valido");
-                escaner.next(); // limpiamos la entrada invalida
+                escaner.next(); // Limpiamos la entrada invalida
             }
         }
         // Solicitamos al usuario el valor de K
@@ -31,7 +31,7 @@ public class CombinacionKEnK {
                 
             } else {
                 System.out.println("Ingresa un valor valido");
-                escaner.next(); // limpiamos la entrada invalida
+                escaner.next(); // Limpiamos la entrada invalida
             }
         }       
         System.out.println("El numero de elementos a combinar ("+k+") en el conjunto de tamaño ("+n+") tiene un numero de combinaciones = "+combinaciones(n,k));
